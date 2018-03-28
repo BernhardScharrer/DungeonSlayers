@@ -9,5 +9,8 @@ public class SlayerCharacter {
 
     private ClassData classData;
     private StatsData statsData;
+    private WeaponsData weaponsData;
+    private ArmorData armorData;
+
 
 }
