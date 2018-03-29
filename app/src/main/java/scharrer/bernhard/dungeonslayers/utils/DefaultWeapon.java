@@ -1,5 +1,7 @@
 package scharrer.bernhard.dungeonslayers.utils;
 
+import java.util.List;
+
 import scharrer.bernhard.dungeonslayers.data.Weapon;
 
 /**
@@ -9,4 +11,7 @@ import scharrer.bernhard.dungeonslayers.data.Weapon;
 
 public class DefaultWeapon extends Weapon {
 
+    public DefaultWeapon() {
+        super("Waffenlos", 0, false, null);
+    }
 }

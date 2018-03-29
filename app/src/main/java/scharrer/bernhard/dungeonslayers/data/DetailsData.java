@@ -6,4 +6,7 @@ package scharrer.bernhard.dungeonslayers.data;
  */
 
 public class DetailsData {
+
+
+
 }

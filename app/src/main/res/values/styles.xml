@@ -8,4 +8,124 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="normal_text">
+
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/colorDarkGray</item>
+
+    </style>
+
+    <style name="headline">
+
+        <item name="android:textSize">25dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorDarkGray</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAllCaps">true</item>
+
+    </style>
+
+    <style name="license_field">
+
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:maxLength">4</item>
+        <item name="android:inputType">textCapCharacters</item>
+        <item name="android:lines">1</item>
+        <item name="android:hint">XXXX</item>
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">40dp</item>
+
+    </style>
+
+    <style name="license_seperator">
+
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">-</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+
+    </style>
+
+    <style name="button_style">
+
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDarkGray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/buttons</item>
+
+    </style>
+
+    <style name="header_style">
+
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDarkGray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/border_top_and_bottom</item>
+
+    </style>
+
+    <style name="list_header_layout">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/border_list_header</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <style name="slayer_showcase_frame_style">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">8dp</item>
+
+    </style>
+
+    <style name="slayer_showcase_frame_image">
+
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+
+    </style>
+
+    <style name="slayer_showcase_frame_text">
+
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">7dp</item>
+        <item name="android:layout_marginTop">23dp</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
 </resources>
