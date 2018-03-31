@@ -15,18 +15,16 @@ public class ClassData {
     private ClassType type;
     private HeroClassType hero_type;
 
-    private int level;
     private int lp;
     private int tp;
     private int ep;
 
-    public ClassData(String name, String nickname, RaceType race, ClassType type, HeroClassType hero_type, int level, int lp, int tp, int ep) {
+    public ClassData(String name, String nickname, RaceType race, ClassType type, HeroClassType hero_type, int lp, int tp, int ep) {
         this.name = name;
         this.nickname = nickname;
         this.race = race;
         this.type = type;
         this.hero_type = hero_type;
-        this.level = level;
         this.lp = lp;
         this.tp = tp;
         this.ep = ep;
